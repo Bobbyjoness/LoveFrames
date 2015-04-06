@@ -46,7 +46,7 @@ function loveframes.load()
 	
 	local loveversion = love._version
 	
-	if loveversion ~= "0.8.0" and loveversion ~= "0.9.0" then
+	if loveversion ~= "0.8.0" and loveversion ~= "0.9.0" and loveversion ~= "0.9.1" and loveversion ~= "0.9.2" then
 		error("Love Frames is not compatible with your version of LOVE.")
 	end
 	
